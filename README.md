@@ -45,54 +45,123 @@ A native macOS app for organizing AI prompts with a beautiful Bauhaus design aes
 - **macOS 14.0+** (Sonoma or later)
 - **Xcode Command Line Tools** (will be installed automatically if missing)
 
-### Quick Install
+### Quick Install (Recommended)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/mackmcconnell/prompt-dadi.git
-   cd prompt-dadi
-   ```
+**Option 1: One-liner**
+```bash
+git clone https://github.com/mackmcconnell/prompt-dadi.git && cd prompt-dadi && chmod +x install.sh && ./install.sh && open PromptDadi.app
+```
 
-2. **Run the installation script:**
-   ```bash
-   chmod +x install.sh
-   ./install.sh
-   ```
+**Option 2: Step by step**
+```bash
+# 1. Clone the repository
+git clone https://github.com/mackmcconnell/prompt-dadi.git
 
-3. **Launch the app:**
-   ```bash
-   open PromptDadi.app
-   ```
+# 2. Navigate to the directory
+cd prompt-dadi
+
+# 3. Make the install script executable
+chmod +x install.sh
+
+# 4. Run the installation
+./install.sh
+
+# 5. Launch the app
+open PromptDadi.app
+```
+
+### What the Installation Does
+
+The installation script automatically:
+
+1. **📦 Checks prerequisites** → Ensures Xcode Command Line Tools are installed
+2. **🔨 Builds the app** → Compiles with Swift Package Manager
+3. **📱 Creates app bundle** → Proper macOS app structure
+4. **🎨 Generates icon** → Creates the rose icon programmatically
+5. **🔧 Sets permissions** → Makes the app executable
+6. **✅ Provides feedback** → Shows progress and completion status
 
 ### Manual Installation
 
-If you prefer to install manually:
+If you prefer to install manually or troubleshoot:
 
 ```bash
-# Install Command Line Tools (if needed)
+# 1. Install Command Line Tools (if needed)
 xcode-select --install
 
-# Clone and build
+# 2. Clone the repository
 git clone https://github.com/mackmcconnell/prompt-dadi.git
 cd prompt-dadi
+
+# 3. Build the app
 swift build -c release
 
-# Create app bundle
+# 4. Create app bundle structure
 mkdir -p PromptDadi.app/Contents/MacOS
+mkdir -p PromptDadi.app/Contents/Resources
+
+# 5. Copy the executable
 cp .build/release/PromptDadi PromptDadi.app/Contents/MacOS/
+
+# 6. Set permissions
 chmod +x PromptDadi.app/Contents/MacOS/PromptDadi
 
-# Launch
+# 7. Create Info.plist (copy from PromptDadi/Info.plist)
+cp PromptDadi/Info.plist PromptDadi.app/Contents/
+
+# 8. Launch the app
 open PromptDadi.app
 ```
 
 ### Install to Applications Folder
 
-To install the app permanently:
+To install the app permanently in your Applications folder:
 
 ```bash
+# After running the installation script
 cp -r PromptDadi.app /Applications/
+
+# Or use the one-liner
+./install.sh && cp -r PromptDadi.app /Applications/
 ```
+
+### Troubleshooting
+
+**If the build fails:**
+```bash
+# Check if Command Line Tools are installed
+xcode-select -p
+
+# If not installed, install them
+xcode-select --install
+
+# Try building again
+swift build -c release
+```
+
+**If the app doesn't launch:**
+```bash
+# Check if the executable exists
+ls -la PromptDadi.app/Contents/MacOS/
+
+# Check permissions
+ls -la PromptDadi.app/Contents/MacOS/PromptDadi
+
+# Try running directly
+./PromptDadi.app/Contents/MacOS/PromptDadi
+```
+
+**If you get a security warning:**
+1. Go to **System Preferences** → **Security & Privacy**
+2. Click **"Open Anyway"** for PromptDadi
+3. Or run: `sudo spctl --master-disable` (temporarily)
+
+### System Requirements
+
+- **macOS 14.0+** (Sonoma or later)
+- **4GB RAM** minimum
+- **500MB** free disk space
+- **Xcode Command Line Tools** (installed automatically)
 
 ## Usage
 
