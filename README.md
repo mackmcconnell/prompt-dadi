@@ -244,53 +244,10 @@ Package.swift            # Swift Package Manager configuration
 install.sh               # Automated installation script
 ```
 
-### Development Approaches
-
-**For Contributors:**
-- **Xcode Project** → Familiar visual development environment
-- **Built-in debugging** → Step-through debugging and breakpoints
-- **Interface Builder** → Visual UI design (if needed)
-- **Standard workflow** → Most iOS/macOS developers expect this
-
-**For End Users:**
-- **Swift Package Manager** → Command-line build with `install.sh`
-- **Automated installation** → One-command setup
-- **No Xcode required** → Just Command Line Tools
-
-**For CI/CD:**
-- **Swift Package Manager** → Easy automation
-- **Cross-platform** → Works on Linux, CI systems
-
 ### Dependencies
 - **SwiftUI** → UI framework
 - **Foundation** → Core functionality
 - **AppKit** → macOS integration
-
-## Features in Detail
-
-### Bauhaus Design
-- **Geometric shapes** → Rectangles instead of rounded corners
-- **Monospaced fonts** → Clean, technical aesthetic
-- **High contrast** → Black, white, and bold colors
-- **Minimalist layout** → Focus on content and functionality
-
-### Keyboard Navigation
-- **Arrow keys** → Navigate through folders and prompts
-- **Enter** → Copy selected prompt to clipboard
-- **Escape** → Close overlays and return to main view
-- **Cmd shortcuts** → Quick access to all features
-
-### Command Palette
-- **Fuzzy search** → Find prompts by title or content
-- **Keyboard navigation** → Arrow keys to select results
-- **Quick copy** → Enter to copy prompt to clipboard
-- **Instant results** → Real-time search as you type
-
-### Drag and Drop
-- **Reorder prompts** → Drag within folders
-- **Visual feedback** → Clear indication of drag state
-- **Persistent order** → Changes saved automatically
-- **No conflicts** → Works alongside keyboard navigation
 
 ## Future Features
 
@@ -332,4 +289,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with 🌹 ** 
+**Built with ❤️ and 🌹 for the AI prompt community** 
