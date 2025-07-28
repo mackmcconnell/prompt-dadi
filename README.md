@@ -2,55 +2,46 @@
 
 ![Prompt Dadi Banner](assets/prompt-dadi-banner.png)
 
-A native macOS app for organizing AI prompts with swaggy Bauhaus design aesthetic.
-
 ## What is Prompt Dadi?
 
 **Prompt Dadi** is a way to organize, manage, and quickly access your AI prompts on Mac.
 
-Do you find that you're collecting large pieces of texts for AI prompting in messy notes or google docs? Do you wish you could easily summon the baddest prompts in the game? 
+Do you find that you're collecting large pieces of texts for AI prompting in messy notes or google docs? 
+Do you wish you could easily summon the baddest prompts in the game? 
 
 Dont worry, Dadi's got you.
 
-### 💡 **Key Benefits:**
+## 😎 **Coming Soon**
 
-- **⚡ Lightning Fast** → Find any prompt in seconds with command palette
-- **🎨 Beautiful Design** → Bauhaus aesthetic that's both functional and inspiring
-- **📱 Native macOS** → Feels like a natural part of your workflow
+**Prompt Library**  
+Browse a vast amount of dank prompts written by actual based gods. Import them directly into your Prompt Dadi with one click.
+
+## 💡 **Key Benefits:**
+
+- **⚡ Fast** → Find any prompt in seconds with command palette
+- **🎨 Looks cool** → Bauhaus aesthetic that's both functional and inspiring
+- **📱 Native to macOS** → Snappy and feels right.
 - **🔒 Privacy First** → All data stored locally on your machine
 - **🔄 Always Available** → Works offline, no internet required
 - **📈 Productivity Boost** → Spend less time searching, more time creating
 
-Prompt Dadi transforms how you work with AI by making your prompts as accessible as your thoughts.
-
 ## Features
 
 ### ⌨️ Keyboard Shortcuts
+Prompt Dadi is built shortcut-first without many interface clues. The only shortcut you really need to know is ```?``` which reveals all of the other shortcuts 🙃
+- **?** → Show help overlay
 - **Cmd+N** → Create new prompt
 - **Cmd+Shift+N** → Create new folder
 - **Cmd+E** → Edit selected prompt
 - **Cmd+Shift+P** → Command palette (fuzzy search)
 - **Cmd+Enter** → Save forms
-- **?** → Show help overlay
 - **↑/↓** → Navigate folders and prompts
 - **←/→** → Expand/collapse folders
 - **Enter** → Copy prompt to clipboard
 
-### Organization
-- **Folder-based organization** with nested prompts
+### Some ~hidden features that help
 - **Drag and drop** to reorder prompts within folders
-- **Persistent storage** across app sessions
-
-### Search & Navigation
-- Launch **Command palette** with fuzzy search
-- **Arrow key navigation** through all items
-- **Context menus** for quick actions
-- **Clipboard integration** with confirmation
-
-### 💾 Data Management
-- **Local storage** using UserDefaults
-- **Automatic saving** of all changes
-- **Persistent across sessions** and app restarts
+- Launch **Command palette** to do pretty much anything
 - **No internet required** - works completely offline
 
 ## Installation
@@ -208,22 +199,7 @@ install.sh               # Automated installation script
 - **AppKit** → macOS integration
 
 ## Future Features
-
-### Planned Enhancements
-- **Global search** → Search across all content
-- **Tags system** → Multiple tags per prompt
-- **Export functionality** → Markdown, JSON, PDF export
-- **Dark mode** → Theme toggle
-- **Cloud sync** → Supabase or Firebase integration
-- **Template library** → Pre-built prompt templates
-- **Version history** → Track changes to prompts
-- **Sharing** → Share prompts with others
-
-### Potential Integrations
-- **AI testing** → Test prompts with AI models
-- **Prompt optimization** → AI suggestions for improvement
-- **Workflow automation** → Chain prompts together
-- **Analytics** → Usage insights and statistics
+TBD
 
 ## Contributing
 
@@ -247,4 +223,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ and 🌹 for the AI prompt community** 
+**Built with 🌹 in Martha's Vineyard & San Francisco** 
