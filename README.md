@@ -12,6 +12,19 @@ Do you find that you're collecting large pieces of texts for AI prompting in mes
 
 Dont worry, Dadi's got you.
 
+### 💡 **Key Benefits:**
+
+- **⚡ Lightning Fast** → Find any prompt in seconds with command palette
+- **🎨 Beautiful Design** → Bauhaus aesthetic that's both functional and inspiring
+- **📱 Native macOS** → Feels like a natural part of your workflow
+- **🔒 Privacy First** → All data stored locally on your machine
+- **🔄 Always Available** → Works offline, no internet required
+- **📈 Productivity Boost** → Spend less time searching, more time creating
+
+Prompt Dadi transforms how you work with AI by making your prompts as accessible as your thoughts.
+
+## Features
+
 ### ⌨️ Keyboard Shortcuts
 - **Cmd+N** → Create new prompt
 - **Cmd+Shift+N** → Create new folder
@@ -23,14 +36,13 @@ Dont worry, Dadi's got you.
 - **←/→** → Expand/collapse folders
 - **Enter** → Copy prompt to clipboard
 
-### 📁 Organization
+### Organization
 - **Folder-based organization** with nested prompts
-- **Unique Bauhaus colors** for each folder
 - **Drag and drop** to reorder prompts within folders
 - **Persistent storage** across app sessions
 
-### 🔍 Search & Navigation
-- **Command palette** with fuzzy search
+### Search & Navigation
+- Launch **Command palette** with fuzzy search
 - **Arrow key navigation** through all items
 - **Context menus** for quick actions
 - **Clipboard integration** with confirmation
