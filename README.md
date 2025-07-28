@@ -84,17 +84,6 @@ chmod +x install.sh
 open PromptDadi.app
 ```
 
-### What the Installation Does
-
-The installation script automatically:
-
-1. **📦 Checks prerequisites** → Ensures Xcode Command Line Tools are installed
-2. **🔨 Builds the app** → Compiles with Swift Package Manager
-3. **📱 Creates app bundle** → Proper macOS app structure
-4. **🎨 Generates icon** → Creates the rose icon programmatically
-5. **🔧 Sets permissions** → Makes the app executable
-6. **✅ Provides feedback** → Shows progress and completion status
-
 ### Manual Installation
 
 If you prefer to install manually or troubleshoot:
@@ -176,49 +165,6 @@ ls -la PromptDadi.app/Contents/MacOS/PromptDadi
 - **4GB RAM** minimum
 - **500MB** free disk space
 - **Xcode Command Line Tools** (installed automatically)
-
-## Usage
-
-### Getting Started
-1. **Launch the app** → Prompt Dadi opens with a clean interface
-2. **Create folders** → Use Cmd+Shift+N to create new folders
-3. **Add prompts** → Use Cmd+N to create new prompts
-4. **Organize** → Drag prompts to reorder, use folders to categorize
-
-### Navigation
-- **Left pane** → Folder navigation with nested prompts
-- **Right pane** → Prompt details for selected folder
-- **Arrow keys** → Navigate through all items
-- **Click** → Select folders or prompts
-
-### Search
-- **Cmd+Shift+P** → Open command palette
-- **Type** → Fuzzy search across all prompts
-- **Enter** → Copy selected prompt to clipboard
-- **Escape** → Close command palette
-
-### Help
-- **?** → Show comprehensive help overlay
-- **All shortcuts** → Listed in help overlay
-- **Escape** → Close help overlay
-
-## Data Storage
-
-### Local Storage
-- **UserDefaults** → Apple's built-in local storage
-- **Automatic saving** → Every change saved immediately
-- **Persistent** → Data survives app restarts and system updates
-- **No internet** → Works completely offline
-
-### Storage Location
-```
-~/Library/Containers/com.promptdadi.app/Data/Library/Preferences/
-```
-
-### Backup
-- **Time Machine** → Automatically included in backups
-- **Manual backup** → Copy UserDefaults file
-- **Export** → Future feature for data portability
 
 ## Development
 
