@@ -2,15 +2,15 @@
 
 ![Prompt Dadi Banner](assets/prompt-dadi-banner.png)
 
-A native macOS app for organizing AI prompts with a beautiful Bauhaus design aesthetic.
+A native macOS app for organizing AI prompts with swaggy Bauhaus design aesthetic.
 
-## Features
+## What is Prompt Dadi?
 
-### 🎨 Design
-- **Bauhaus aesthetic** with clean geometric shapes
-- **No rounded corners** anywhere
-- **Bold colors** and minimalist design
-- **Hard window corners** for authentic Bauhaus look
+**Prompt Dadi** is a way to organize, manage, and quickly access your AI prompts.
+
+Do you find that you're collecting large pieces of texts for AI prompting in messy notes or google docs? Do you wish you could easily summon the baddest prompts in the game? 
+
+Dont worry, Dadi's got you.
 
 ### ⌨️ Keyboard Shortcuts
 - **Cmd+N** → Create new prompt
