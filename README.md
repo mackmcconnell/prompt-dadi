@@ -1,5 +1,7 @@
 # Prompt Dadi 🌹
 
+![Prompt Dadi Banner](assets/prompt-dadi-banner.png)
+
 A native macOS app for organizing AI prompts with a beautiful Bauhaus design aesthetic.
 
 ## Features
