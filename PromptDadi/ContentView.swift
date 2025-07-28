@@ -146,6 +146,13 @@ struct ContentView: View {
                                 Rectangle()
                                     .fill(selectedNavigationItem == .folder(folder) ? Color.black.opacity(0.1) : Color.clear)
                             )
+                            .contextMenu {
+                                if folder != "General" {
+                                    Button("Delete Folder", role: .destructive) {
+                                        promptManager.deleteFolder(folder)
+                                    }
+                                }
+                            }
                         }
                     }
                 }
