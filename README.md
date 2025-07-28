@@ -6,7 +6,7 @@ A native macOS app for organizing AI prompts with swaggy Bauhaus design aestheti
 
 ## What is Prompt Dadi?
 
-**Prompt Dadi** is a way to organize, manage, and quickly access your AI prompts.
+**Prompt Dadi** is a way to organize, manage, and quickly access your AI prompts on Mac.
 
 Do you find that you're collecting large pieces of texts for AI prompting in messy notes or google docs? Do you wish you could easily summon the baddest prompts in the game? 
 
@@ -211,6 +211,18 @@ ls -la PromptDadi.app/Contents/MacOS/PromptDadi
 ## Development
 
 ### Building from Source
+
+**Option 1: Xcode Project (Recommended for Contributors)**
+```bash
+git clone https://github.com/mackmcconnell/prompt-dadi.git
+cd prompt-dadi
+open PromptDadi.xcodeproj
+```
+Then in Xcode:
+1. Select your Mac as the target device
+2. Click the Run button (▶️) or press Cmd+R
+
+**Option 2: Swift Package Manager (Command Line)**
 ```bash
 git clone https://github.com/mackmcconnell/prompt-dadi.git
 cd prompt-dadi
@@ -226,7 +238,28 @@ PromptDadi/
 ├── PromptDadiApp.swift   # App entry point
 ├── Info.plist           # App configuration
 └── Assets.xcassets/     # App icons and resources
+
+PromptDadi.xcodeproj/    # Xcode project for visual development
+Package.swift            # Swift Package Manager configuration
+install.sh               # Automated installation script
 ```
+
+### Development Approaches
+
+**For Contributors:**
+- **Xcode Project** → Familiar visual development environment
+- **Built-in debugging** → Step-through debugging and breakpoints
+- **Interface Builder** → Visual UI design (if needed)
+- **Standard workflow** → Most iOS/macOS developers expect this
+
+**For End Users:**
+- **Swift Package Manager** → Command-line build with `install.sh`
+- **Automated installation** → One-command setup
+- **No Xcode required** → Just Command Line Tools
+
+**For CI/CD:**
+- **Swift Package Manager** → Easy automation
+- **Cross-platform** → Works on Linux, CI systems
 
 ### Dependencies
 - **SwiftUI** → UI framework
@@ -299,4 +332,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ and 🌹 for the AI prompt community** 
+**Built with 🌹 ** 

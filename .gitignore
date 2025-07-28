@@ -1,7 +1,8 @@
 # Build artifacts
 .build/
-*.xcodeproj/
-*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
 
 # macOS
 .DS_Store
@@ -34,7 +35,6 @@ Temporary Items
 Packages/
 Package.pins
 Package.resolved
-*.xcodeproj
 
 # Xcode
 *.xcuserstate
